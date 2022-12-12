@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 90vmax;
+    width: 100%;
+    background-image: linear-gradient(rgba(236, 171, 171, 0.286),rgba(139, 125, 125, 0.248)),url(images/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: top;
+    
+}
+nav img{
+    background-color: rgba(206, 181, 162, 0.23);
+    width: 200px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+.A_U{
+    
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(66, 9, 9);
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    margin-left: 21%;
+    
+}
+.A_U p{
+    font-size: 20px;
+    line-height: 60.5px;
+    font-weight:520;
+}
+
+
+.footer {
+    background: #2a2a2c;
+
+}
+.footer p{
+    color:white;
+    font-size: 29px;
+    text-align: center;
+}
+.box  table{
+    font-size: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 50px;
+    color: #fff;
+}
+a{
+    text-decoration:none;
+    color: #fff;
+}

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 90vmax;
+    width: 100%;
+    background-image: linear-gradient(rgba(236, 171, 171, 0.286),rgba(139, 125, 125, 0.248)),url(images/pexels-pixabay-260922.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: top;
+    
+}
+nav img{
+    background-color: rgba(255, 255, 255, 0.684);
+    width: 200px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.des {
+    height: 420px;
+}
+
+.description {
+    float: left;
+    background-color: rgba(153, 89, 39, 0.45);
+    height: 400px;
+    width: 48%;
+
+}
+.description h1{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(66, 9, 9);
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+.description h4{
+
+    text-align: center;
+    font-size: 35px;
+    padding: 2px;
+
+}
+
+.dish_oft {
+    float: right;
+    background-color: rgba(153, 89, 39, 0.45);
+    height: 400px;
+    width: 48%;
+}
+.dish_oft h2{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(66, 9, 9);
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+.dish_oft img{
+    width: 370px;
+    margin-left: 40px;
+    margin-top: 15px;
+
+}
+.dish_oft h3 {
+    float: right;
+    margin-top: 20px;
+    margin-right: 357px;
+    font-size: 35px;
+       
+}
+.dish_oft p{
+    float: right;
+    width: 420px;
+    margin-top: 32px;
+    margin-right: 69px;
+    font-size: 19px;
+    color: snow;
+}
+.imgsldr h3{
+    font-size: 60px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 392px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+
+}
+.imgsldr {
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%,-50%);
+    background-image: url(images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px;
+    animation: slider  9s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url(images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg) }
+    35%{background-image: url(images/jakub-kapusnak-4f4YZfDMLeU-unsplash.jpg); }
+    75%{ background-image:url(images/jason-leung-poI7DelFiVA-unsplash.jpg) ;}
+}
+.Space {
+    height: 500px;
+}
+
+.Offers {
+    height: 400px;
+    background-color: rgba(153, 89, 39, 0.45);
+    width: 50%;
+    margin-left: 25%;
+}
+.Offers h3{
+    font-size: 35px;
+    text-align: center;
+    margin-top:4px ;
+}
+
+.img_spe {
+    float: left;
+    width: 370px;
+margin-left: 40px;
+margin-top: 15px;
+}
+
+.description p {
+   float: right;
+
+    
+   float: right;
+width: 401px;
+margin-top: 22px;
+margin-right: 71px;
+  font-size: 19px;
+  color: snow;
+}
+
+.img_off {
+    float:right;
+    width: 300px;
+}
+.des_off{
+    margin: 5px;
+    font-size: 39px;
+    color: aliceblue;
+    
+}
+
+.footer {
+    background: #2a2a2c;
+
+}
+.footer p{
+    color:white;
+    font-size: 29px;
+    text-align: center;
+}
+.box  table{
+    font-size: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 50px;
+    color: #fff;
+}
+a{
+    text-decoration:none;
+    color: #fff;
+}
+
